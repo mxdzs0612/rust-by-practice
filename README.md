@@ -3,7 +3,9 @@
 
 来源: [Rust By Pracrice](https://practice-zh.course.rs/why-exercise.html)
 
-#### 编译参考:
+对答案：[Solution](https://github.com/sunface/rust-by-practice/tree/master/solutions)
+
+## 编译参考:
 - 使用`cargo`：
 ```bash
 cargo run --bin 3-1
@@ -26,3 +28,7 @@ cargo run --bin 3-1
 }
 ```
 然后`Ctrl+Alt+N`或点击右上角三角形直接运行。
+
+## 我的错题本
+[5-2-4](src/bin/5-2-4.rs)
+
