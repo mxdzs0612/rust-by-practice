@@ -1,5 +1,3 @@
-use std::slice;
-
 fn main() {
-println!("hello");
+    println!("hello");
 }
