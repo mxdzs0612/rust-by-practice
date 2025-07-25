@@ -5,6 +5,8 @@
 
 对答案：[Solution](https://github.com/sunface/rust-by-practice/tree/master/solutions)
 
+这套习题前面都还比较简单，从第 10 章开始难度就逐渐上来了。到后面还有一大堆 todo，作者太忙不更了。不过做完现有部分也差不多了。注意有一部分题是社区贡献的，只有英文版没有中文版。
+
 ## 编译参考:
 - 使用`cargo`：
 ```bash
@@ -46,4 +48,8 @@ touch 3-1-{1..9}.rs
 ## 我的错题本
 [5-2-4](src/bin/5-2-4.rs)
 [7-10](src/bin/7-10.rs)
+[8-1-4](src/bin/8-1-4.rs)
+[8-2-6](src/bin/8-2-6.rs)
+[10-1-2](src/bin/10-1-2.rs)
+[10-1-6](src/bin/10-1-6.rs)
 

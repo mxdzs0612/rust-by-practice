@@ -87,13 +87,6 @@ impl List {
         Cons(elem, Box::new(self))
     }
 
-    // 返回链表的长度
-    // fn len(&self) -> u32 {
-    //     match *self {
-    //         Cons(_, ref tail) => 1 + tail.len(),
-    //         Nil => 0
-    //     }
-    // }
     fn len(&self) -> u32 {
         match self {
             // 这里我们不能拿走 tail 的所有权，因此需要获取它的引用
@@ -130,3 +123,11 @@ fn main() {
     println!("链表的长度是: {}", list.len());
     println!("{}", list.stringify());
 }
+
+// 这段的答案是用 ref，但实际感觉我的写法更好
+// fn len(&self) -> u32 {
+//     match *self {
+//         Cons(_, ref tail) => 1 + tail.len(),
+//         Nil => 0
+//     }
+// }
