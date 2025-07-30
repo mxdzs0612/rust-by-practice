@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "rust-by-practice"
+name = "rust_by_practice"
 version = "0.1.0"
