@@ -13,6 +13,9 @@
 cargo run --bin 3-1
 ```
 此法要求文件全都放在bin路径下，但我现在在用 [zed](https://github.com/zed-industries/zed)，没找到更好的方案。
+
+这么搞还有个坏处，文件多了以后启动会有点卡
+
 - 使用`VS Code`的`code runner`插件：
 
 为避免生成的二进制文件污染目录，需修改插件配置:
@@ -73,3 +76,9 @@ touch 3-1-{1..9}.rs
 [12-3-2](src/bin/12-3-2.rs)
 
 [16-3-4](src/bin/16-3-4.rs)
+
+[17-2-6](src/bin/17-2-6.rs)
+
+[17-3-6](src/bin/17-3-6.rs)
+
+[18-1-10](src/bin/18-1-10.rs)
